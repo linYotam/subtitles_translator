@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "subtitles converter"
+version = "0.1.0"
+description = "This project translate subtitles from one language to another -> this time english to hebrew."
+authors = ["Yotam Lin <linyotam@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+boto3 = "^1.35.19"
+json5 = "^0.9.25"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
